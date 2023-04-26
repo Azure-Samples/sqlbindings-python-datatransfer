@@ -1,0 +1,11 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+      "FUNCTIONS_WORKER_RUNTIME": "python",
+      "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+      "SqlConnectionString": "Server=tcp:YOURSERVER,1433;Initial Catalog=AdventureWorksLT;Persist Security Info=False;User ID=sqladmin;Password=YORUPASSWORD;Encrypt=True;TrustServerCertificate=False;",
+      "FTP_HOST": "YOURFTPSERVER",
+      "FTP_USER": "YOURFTPUSERNAME",
+      "FTP_PASS": "YOURFTPPASSWORD"
+    }
+  }

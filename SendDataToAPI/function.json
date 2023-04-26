@@ -1,0 +1,19 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "everyDayAt5AM",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "0 0 5 * * *"
+    },
+    {
+      "name": "products",
+      "type": "sql",
+      "direction": "in",
+      "commandText": "SELECT [ProductID],[Name],[ProductModel],[Description] FROM [SalesLT].[vProductAndDescription]",
+      "commandType": "Text",
+      "connectionStringSetting": "SqlConnectionString"
+    }
+  ]
+}
