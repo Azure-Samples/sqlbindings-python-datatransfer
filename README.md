@@ -16,6 +16,8 @@ products:
 * [Scenario 1](#scenario-1-write-to-an-ftp-server): Generate .txt files from data currently stored in Azure SQL Database and send the files to an FTP server
 * [Scenario 2](#scenario-2-send-data-to-an-api-endpoint): Take data from the Azure SQL Database and send the data to an API endpoint
 
+![Sending data with Python and SQL bindings](python-sqlbindings.png)
+
 ## Contents
 
 |File/folder| Description|
